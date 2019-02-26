@@ -192,8 +192,10 @@ z-index: 2;
     padding: 5%;
 }
 .tarjeta1 img{
-    height: 25em;
+    height: 20em;
     width: 20em;
+    padding-top: 2.6em;
+    padding-bottom: 2.11em;
 }
 .tarjeta1 h1{
     color: rgb(255, 92, 166);
@@ -202,6 +204,7 @@ z-index: 2;
 .tarjeta1 p{
     color: rgb(127, 127, 127);
     font-size: 1.32em;
+    padding-left: .9em;
 }
 .tarjeta1 a{
     text-decoration:none;
@@ -219,6 +222,7 @@ z-index: 2;
 .tarjeta2 p{
     color: rgb(127, 127, 127);
     font-size: 1.32em;
+    padding-left: .9em;
 }
 .tarjeta2 a{
     text-decoration:none;
@@ -286,7 +290,7 @@ z-index: 2;
 
 .servicios4{
     background-image:linear-gradient(rgba(0, 0, 0, 0.45),
-     rgba(18, 18, 19, 0.45)), url('../Imagenes/nutri360.png');
+     rgba(18, 18, 19, 0.45)), url('../Imagenes/Servicio1_crop.png');
     background-size: 100%;
     text-align: center;
     background-attachment: local;
@@ -323,7 +327,8 @@ z-index: 2;
     padding-bottom: 9em;
 }
 .servicios7{
-    background-image: url('../Imagenes/Semana\ de\ Salud\(1\).png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),
+     rgba(18, 18, 19, 0.45)), url('../Imagenes/Servicio2_crop.png');
     background-size: 100%;
     text-align: center;
     background-attachment: local;
@@ -336,11 +341,22 @@ z-index: 2;
     opacity: 0;
 }
 .servicios7 h1{ 
-    font-size: 4.5em;
-    color: rgb(255, 100, 169);
+    overflow: hidden;
+    white-space: inherit;
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    background: white;
     font-family:Helvetica;
-    padding-top: 3em;
-    text-align: right;
+    margin: 0;
+    text-align: left;
+    width: 11.8em;
+}
+.servicios7 h2{
+    color:rgb(127, 127, 127);
+    padding: 1.6em;
+    text-align: left;
+    background: #f0f0f0;
+    width: 24em;
 }
 .servicios7 li{
     text-align: left;
@@ -488,7 +504,7 @@ z-index: 2;
 }
 .tituloNutricion h1{
     text-align: center;
-    color: #e4007c;
+    color:  rgb(255, 100, 169);
     font-size: 2.5em;
     margin-top: 0;
     margin-bottom: 0;
@@ -496,7 +512,7 @@ z-index: 2;
 
 .tituloNutricion h2{
     text-align: center;
-    color: #e4007c;
+    color:  rgb(255, 100, 169);
     font-size: 1.4em;
     margin-top: 0;
     margin-bottom: 0;
