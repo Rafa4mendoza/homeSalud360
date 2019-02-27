@@ -39,13 +39,14 @@ body{
     display: none;
     position: fixed;
     width: 5em;
-    padding-top: 1em;
-    padding-left: 42%;
+    padding-left: 41%;
 }
-.submenu li{
+.submenu li {
     background-color: #312E2A;
+    padding-top: 1em;
+    min-width: 9em;
     border:1px solid;
-    padding:10px 12px;
+    padding: 12px;
 }
 /* Header **/
 header{
