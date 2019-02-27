@@ -27,12 +27,26 @@ body{
     z-index: 15;
 }
 
-ul{
+.navbar > ul{
   margin:0;
   padding-right: 0px;
   list-style: none;
 }
-
+.navbar ul:hover > ul{
+    display: block;
+}
+.submenu {
+    display: none;
+    position: fixed;
+    width: 5em;
+    padding-top: 1em;
+    padding-left: 42%;
+}
+.submenu li{
+    background-color: #312E2A;
+    border:1px solid;
+    padding:10px 12px;
+}
 /* Header **/
 header{
   background:#4AADE4;
@@ -54,7 +68,7 @@ header .logo{
     float: left;
 }
 
-header li{
+header  li{
   text-align: center;
   display:inline-block;
 }
@@ -89,6 +103,7 @@ header a:hover{
   color:#e4007c;
   font-weight:bold;
 }
+
 
 /* Showcase */
 
